@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   title: string = 'Task Tracker'
+  color: string = '#3f45ff'
+  btnText: string  = 'Add'
 
   constructor() { }
 

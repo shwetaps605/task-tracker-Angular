@@ -11,6 +11,7 @@ export class TaskItemComponent implements OnInit {
 
   faTimes = faTimes;
 
+  // @Input() text!: string
   @Input() task!: Task
   @Output() onDeleteTask: EventEmitter<Task> = new EventEmitter()
   @Output() onToggleReminder: EventEmitter<Task> = new EventEmitter()

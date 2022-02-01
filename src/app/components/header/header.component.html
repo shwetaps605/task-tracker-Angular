@@ -2,11 +2,9 @@
     <h1>{{title}}</h1>
 
     <app-button 
-        color='#3f45ff' 
-        text="ADD"
+        [color]="color"
+        [text]="btnText"
         (btnClick)="toggleAddTask()">
     </app-button>
-
     
-
 </header>
